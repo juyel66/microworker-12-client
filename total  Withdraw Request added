@@ -55,6 +55,9 @@ const AdminHome = () => {
 
   return (
     <div>
+ <h1 className="text-3xl text-center mt-3">
+        Total Withdraw Request: {withdrawData?.length}
+      </h1>
      
       <div className="p-5">
         <div>
