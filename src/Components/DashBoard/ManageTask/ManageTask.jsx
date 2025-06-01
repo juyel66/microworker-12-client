@@ -118,17 +118,7 @@ const ManageTask = () => {
           <dialog id="my_modal_4" className="modal">
             <div className="modal-box w-11/12 max-w-5xl">
               {selectedTask && (
-                // <div>
-                //   <h3 className="font-bold text-lg">{selectedTask.title}</h3>
-                //   <p className="py-4">Details: {selectedTask.details}</p>
-                //   <p className="py-2">Quantity: {selectedTask.quantity}</p>
-                //   <p className="py-2">Amount: ${selectedTask.amount}</p>
-                //   <p className="py-2">
-                //     Completion Date: {selectedTask.completionDate}
-                //   </p>
-                //   <p className="py-2">Submission Info: {selectedTask.SubmissionInfo}</p>
-                //   <img src={selectedTask.image} alt={selectedTask.title} className="py-2 max-w-full h-auto" />
-                // </div>
+               
                 <div>
                 <div className="text-center">
                 <div className="flex mt-2 justify-center items-center">  <img  src={selectedTask.image} alt=""  className=""/></div>
